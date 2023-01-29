@@ -124,8 +124,8 @@ print(classification_report(testY.argmax(axis=1), predIdxs,
 	target_names=lb.classes_))
 
 # serialize the model to disk
-print("[INFO] saving mask detector model...")
-model.save("mask_detect.model", save_format="h5")
+#print("[INFO] saving mask detector model...")
+#model.save("mask_detect.model", save_format="h5")
 
 
 # plot the training loss and accuracy
